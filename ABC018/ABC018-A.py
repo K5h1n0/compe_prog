@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+c = int(input())
+l = []
+l.append(a)
+l.append(b)
+l.append(c)
+l.sort(reverse=True)
+print(l.index(a)+1)
+print(l.index(b)+1)
+print(l.index(c)+1)
